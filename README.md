@@ -1,3 +1,3 @@
-# IS / Academy
+# StuDo
 
 WIP.
