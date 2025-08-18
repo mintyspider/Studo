@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { sidebar } from "./sidebar";
 import { navigation } from "./navigation";
+import { katex } from '@mdit/plugin-katex';
 
 export default defineConfig({
   title: "StuDo",
@@ -25,4 +26,13 @@ export default defineConfig({
     },
   },
   cleanUrls: true,
+  markdown: {
+    config: (md) => {
+      // Подключаем плагин KaTeX
+      md.use(katex)
+    }
+  },
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }]
+  ]
 });
