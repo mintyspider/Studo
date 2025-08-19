@@ -28,7 +28,7 @@ export default defineConfig({
   cleanUrls: true,
   markdown: {
     config: (md) => {
-      // Подключаем плагин KaTeX
+      // Подключаем плагин
       md.use(mathjax3);
     }
   },

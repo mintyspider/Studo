@@ -35,7 +35,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           link: "/disciplines/stat/",
         },
         {
-          text: "Слова благодарности",
+          text: "Содержание",
           link: "/disciplines/stat/contributors",
         },
       ],
