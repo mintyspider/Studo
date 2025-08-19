@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import { sidebar } from "./sidebar";
 import { navigation } from "./navigation";
-import { katex } from '@mdit/plugin-katex';
+import mathjax3 from 'markdown-it-mathjax3';
 
 export default defineConfig({
   title: "StuDo",
@@ -29,10 +29,16 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       // Подключаем плагин KaTeX
-      md.use(katex)
+      md.use(mathjax3);
     }
   },
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }]
+    ['script', { 
+      src: 'https://polyfill.io/v3/polyfill.min.js?features=es6' 
+    }],
+    ['script', {
+      id: 'MathJax-script',
+      src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+    }]
   ]
 });
