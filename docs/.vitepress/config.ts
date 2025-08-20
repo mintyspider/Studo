@@ -5,15 +5,20 @@ import mathjax3 from 'markdown-it-mathjax3';
 
 export default defineConfig({
   lang: 'ru',
-  title: "StuDo",
+  title: "MyConspector",
   description: "База знаний ИСиТ ПетрГУ",
-  base: "/Studo/",
+  base: "/MyConspector/",
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/mascot.png',
+    darkModeSwitchLabel: 'Сменить тему',
+    outline: {
+      label: 'Оглавление', 
+      level: 'deep'
+    },
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/mintyspider/Studo",
+        link: "https://github.com/mintyspider/MyConspector",
       },
     ],
     docFooter: {
@@ -23,9 +28,11 @@ export default defineConfig({
     sidebar,
     nav: navigation,
     footer: {
-      message: "Студенты ИСиТ",
-      copyright: "2025 ©mintyspider",
+      message: "Опубликовано под лицензией MIT",
+      copyright: "©mintyspider 2025 – настоящее время",
     },
+    sidebarMenuLabel: "Меню",
+    returnToTopLabel: "Наверх",
     search: {
       provider: 'local',
       options: {
@@ -64,6 +71,6 @@ export default defineConfig({
       id: 'MathJax-script',
       src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
     }],
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/MyConspector/favicon.ico' }]
   ]
 });
