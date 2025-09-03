@@ -1,3 +1,3 @@
-# MyConspector
+# Studo
 
 WIP.

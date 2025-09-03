@@ -5,9 +5,9 @@ import mathjax3 from 'markdown-it-mathjax3';
 
 export default defineConfig({
   lang: 'ru',
-  title: "MyConspector",
+  title: "Studo",
   description: "База знаний ИСиТ ПетрГУ",
-  base: "/MyConspector/",
+  base: "/Studo/",
   themeConfig: {
     logo: '/mascot.png',
     darkModeSwitchLabel: 'Сменить тему',
@@ -18,7 +18,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/mintyspider/MyConspector",
+        link: "https://github.com/mintyspider/Studo",
       },
     ],
     docFooter: {
@@ -71,6 +71,6 @@ export default defineConfig({
       id: 'MathJax-script',
       src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
     }],
-    ['link', { rel: 'icon', href: '/MyConspector/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/Studo/favicon.ico' }]
   ]
 });

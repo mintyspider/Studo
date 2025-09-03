@@ -3,7 +3,7 @@ layout: home
 title: Главная
 
 hero:
-  name: MyConspector
+  name: Studo
   text: Знания, которые останутся с тобой
   tagline: Простые и понятные конспекты дисциплин ИСиТ
   actions:
@@ -15,7 +15,7 @@ hero:
       link: https://github.com/mintyspider
   image:
     src: logo.png
-    alt: Иллюстрация MyConspector
+    alt: Иллюстрация Studo
 
 features:
   - icon: 🚀

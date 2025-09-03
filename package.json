@@ -1,10 +1,10 @@
 {
-  "name": "MyConspector",
+  "name": "Studo",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mintyspider/MyConspector.git"
+    "url": "git+https://github.com/mintyspider/Studo.git"
   },
   "author": "Anastasia Larionova <m1ntyspider@yandex.ru>",
   "license": "MIT",
@@ -36,9 +36,9 @@
   "keywords": [],
   "type": "module",
   "bugs": {
-    "url": "https://github.com/mintyspider/MyConspector/issues"
+    "url": "https://github.com/mintyspider/Studo/issues"
   },
-  "homepage": "https://github.com/mintyspider/MyConspector#readme",
+  "homepage": "https://github.com/mintyspider/Studo#readme",
   "dependencies": {
     "@mdit/plugin-katex": "^0.23.1",
     "acorn": "^8.8.2",
