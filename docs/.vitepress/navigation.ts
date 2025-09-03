@@ -13,6 +13,10 @@ export const navigation: DefaultTheme.NavItem[] = [
         text: "Математическая статистика",
         link: "/disciplines/stat/",
       },
+      {
+        text: "Алгоритмы и структуры данных",
+        link: "/disciplines/ads/",
+      },
     ],
   },
   {

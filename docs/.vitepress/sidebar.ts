@@ -26,6 +26,25 @@ export const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/disciplines/ads": [
+    {
+      text: "Введение",
+      items: [
+        {
+          text: "Описание дисциплины",
+          link: "/disciplines/ads/",
+        },
+        {
+          text: "Содержание",
+          link: "/disciplines/ads/contributors",
+        },
+      ],
+    },
+    {
+      text: "Лекции",
+      items: getLectures("./docs/disciplines/ads/lectures"),
+    },
+  ],
   "/disciplines/stat": [
     {
       text: "Введение",
